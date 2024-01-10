@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-weight: 600;
+  font-family: "Rajdhani",sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
+  display: flex;
+  min-height: 100vh;
+  overflow: scroll;
+  background-image: url('./Components/Assets/ibuilder.jpg');
+  backdrop-filter: blur(2px);
+  background-size:cover;
+  background-position: center;
+}
+
+
+/* body {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('./Components/Assets/ibuilder.jpg');
+  backdrop-filter: blur(2px);
+  background-size: cover;
+  background-position: center;
+} */
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
